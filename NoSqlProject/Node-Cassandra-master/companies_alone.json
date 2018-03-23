@@ -1,0 +1,621 @@
+{  
+   "_id":{  
+      "$oid":"5a5c533c942d09e481c157e7"
+   },
+   "name":"Vidyo",
+   "permalink":"vidyo",
+   "crunchbase_url":"http://www.crunchbase.com/company/vidyo",
+   "homepage_url":"http://www.vidyo.com",
+   "blog_url":"",
+   "blog_feed_url":"",
+   "twitter_username":"Vidyo",
+   "category_code":"messaging",
+   "number_of_employees":80,
+   "founded_year":2005,
+   "founded_month":4,
+   "founded_day":null,
+   "deadpooled_year":null,
+   "deadpooled_month":null,
+   "deadpooled_day":null,
+   "deadpooled_url":null,
+   "tag_list":"",
+   "alias_list":"",
+   "email_address":"VidyoInfo@vidyo.com",
+   "phone_number":"+1.201.289.8597",
+   "description":"high-definition video conferencing ",
+   "created_at":"Mon Dec 03 11:21:05 UTC 2007",
+   "updated_at":"Thu Dec 12 12:51:31 UTC 2013",
+   "overview":"<p>Vidyo pioneered Personal Telepresence enabling multi-party video conferences using a personal computer, with HD quality over converged IP networks. </p>\n\n<p>Leveraging its patented technologies built on the new H.264 Scalable Video Coding (SVC) standard, Vidyo&#8217;s award winning products deliver the industry&#8217;s best error resilience and lowest latency videoconferencing over the Internet and general-purpose networks. Vidyo&#8217;s technology for OEMs and end-to-end product solutions for enterprises support point-to-point and multi-point connections that include a variety of different platforms ranging from Mac &amp; Windows desktops to dedicated room solutions. </p>\n\n<p>VidyoTechnology™ is used by Hitachi, Teliris, ShoreTel and other major organizations and enterprises. Vidyo is based in Hackensack, New Jersey and is privately held.</p>\n\n<p>You can follow Vidyo:</p>\n\n<ul>\n<li>on Twitter: @vidyo</li>\n<li>on Facebook: http://www.facebook.com/vidyoinc?ref=nf</li>\n<li>on LinkedIn: http://www.linkedin.com/companies/vidyo</li>\n<li>on YouTube: http://www.youtube.com/user/VidyoInc</li>\n</ul>",
+   "products":[  
+
+   ],
+   "relationships":[  
+      {  
+         "is_past":false,
+         "title":"Executive Chairman of Board",
+         "person":{  
+            "first_name":"Avery",
+            "last_name":"More",
+            "permalink":"avery-more"
+         }
+      },
+      {  
+         "is_past":false,
+         "title":"CFO",
+         "person":{  
+            "first_name":"David",
+            "last_name":"Kaminsky",
+            "permalink":"david-kaminsky"
+         }
+      },
+      {  
+         "is_past":false,
+         "title":"VP Worldwide Channels",
+         "person":{  
+            "first_name":"James",
+            "last_name":"Fairweather",
+            "permalink":"james-fairweather"
+         }
+      },
+      {  
+         "is_past":false,
+         "title":"Sr. Director of Engineering",
+         "person":{  
+            "first_name":"Mark",
+            "last_name":"Reid",
+            "permalink":"mark-reid-2"
+         }
+      },
+      {  
+         "is_past":false,
+         "title":"Board of Director",
+         "person":{  
+            "first_name":"Douglas",
+            "last_name":"Carlisle",
+            "permalink":"douglas-carlisle"
+         }
+      },
+      {  
+         "is_past":false,
+         "title":"Board Director",
+         "person":{  
+            "first_name":"Jon",
+            "last_name":"Bayless",
+            "permalink":"jon-bayless"
+         }
+      },
+      {  
+         "is_past":false,
+         "title":"Board Director",
+         "person":{  
+            "first_name":"Joshua",
+            "last_name":"Ruch",
+            "permalink":"joshua-ruch"
+         }
+      },
+      {  
+         "is_past":true,
+         "title":"Chief Financial Officer",
+         "person":{  
+            "first_name":"Ezra",
+            "last_name":"Sofer",
+            "permalink":"ezra-sofer"
+         }
+      }
+   ],
+   "competitions":[  
+      {  
+         "competitor":{  
+            "name":"Dimdim",
+            "permalink":"dimdim"
+         }
+      },
+      {  
+         "competitor":{  
+            "name":"Polycom",
+            "permalink":"polycom-2"
+         }
+      },
+      {  
+         "competitor":{  
+            "name":"ooVoo",
+            "permalink":"oovoo"
+         }
+      }
+   ],
+   "providerships":[  
+
+   ],
+   "total_money_raised":"$141M",
+   "funding_rounds":[  
+      {  
+         "id":1104,
+         "round_code":"b",
+         "source_url":"http://venturebeat.com/2007/10/05/vidyo-raises-12m-more-for-high-definition-video-conferencing/",
+         "source_description":"Vidyo raises $12M more for high-definition video conferencing",
+         "raised_amount":12000000,
+         "raised_currency_code":"USD",
+         "funded_year":2007,
+         "funded_month":10,
+         "funded_day":1,
+         "investments":[  
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Sevin Rosen Funds",
+                  "permalink":"sevin-rosen-funds"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Star Ventures",
+                  "permalink":"star-ventures"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Rho Capital Partners",
+                  "permalink":"rho-capital-ventures"
+               },
+               "person":null
+            }
+         ]
+      },
+      {  
+         "id":3138,
+         "round_code":"b",
+         "source_url":"http://www.pehub.com/article/articledetail.php?articlepostid=13934",
+         "source_description":"Vidyo Adds $3 Million.",
+         "raised_amount":3000000,
+         "raised_currency_code":"USD",
+         "funded_year":2008,
+         "funded_month":8,
+         "funded_day":10,
+         "investments":[  
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Sevin Rosen Funds",
+                  "permalink":"sevin-rosen-funds"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Rho Capital Partners",
+                  "permalink":"rho-capital-ventures"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Star Ventures",
+                  "permalink":"star-ventures"
+               },
+               "person":null
+            }
+         ]
+      },
+      {  
+         "id":5216,
+         "round_code":"b",
+         "source_url":"http://www.paidcontent.org/entry/419-vidyo-nabs-15-million-third-round-for-video-conferencing-tech-adds-new-/",
+         "source_description":"Vidyo Nabs $15 Million Third Round; Adds New CFO",
+         "raised_amount":15000000,
+         "raised_currency_code":"USD",
+         "funded_year":2009,
+         "funded_month":3,
+         "funded_day":5,
+         "investments":[  
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Menlo Ventures",
+                  "permalink":"menlo-ventures"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Rho Capital Partners",
+                  "permalink":"rho-capital-ventures"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Sevin Rosen Funds",
+                  "permalink":"sevin-rosen-funds"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Star Ventures",
+                  "permalink":"star-ventures"
+               },
+               "person":null
+            }
+         ]
+      },
+      {  
+         "id":8870,
+         "round_code":"debt_round",
+         "source_url":"http://venturebeat.com/2009/09/28/vidyo-pulls-in-7m-for-video-conferencing-tech/",
+         "source_description":"Vidyo pulls in $7M for video conferencing tech",
+         "raised_amount":7000000,
+         "raised_currency_code":"USD",
+         "funded_year":2009,
+         "funded_month":9,
+         "funded_day":28,
+         "investments":[  
+
+         ]
+      },
+      {  
+         "id":13729,
+         "round_code":"c",
+         "source_url":"http://newteevee.com/2010/03/31/vidyo-scores-monster-25m-funding-round/",
+         "source_description":"Vidyo Scores Monster $25M Funding Round",
+         "raised_amount":25000000,
+         "raised_currency_code":"USD",
+         "funded_year":2010,
+         "funded_month":4,
+         "funded_day":1,
+         "investments":[  
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Menlo Ventures",
+                  "permalink":"menlo-ventures"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Sevin Rosen Funds",
+                  "permalink":"sevin-rosen-funds"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Star Ventures",
+                  "permalink":"star-ventures"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Four Rivers Group",
+                  "permalink":"four-rivers-group"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Rho Capital Partners",
+                  "permalink":"rho-capital-ventures"
+               },
+               "person":null
+            }
+         ]
+      },
+      {  
+         "id":21018,
+         "round_code":"d",
+         "source_url":"http://www.finsmes.com/2011/09/vidyo-raises-22-5m-series-funding.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29",
+         "source_description":"Vidyo Raises $22.5M in Series D funding",
+         "raised_amount":22500000,
+         "raised_currency_code":"USD",
+         "funded_year":2011,
+         "funded_month":9,
+         "funded_day":22,
+         "investments":[  
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"QuestMark Partners",
+                  "permalink":"questmark"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Menlo Ventures",
+                  "permalink":"menlo-ventures"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Rho Capital Partners",
+                  "permalink":"rho-capital-ventures"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Star Ventures",
+                  "permalink":"star-ventures"
+               },
+               "person":null
+            }
+         ]
+      },
+      {  
+         "id":30081,
+         "round_code":"unattributed",
+         "source_url":"http://www.sec.gov/Archives/edgar/data/1441971/000144200512000001/xslFormDX01/primary_doc.xml",
+         "source_description":"SEC",
+         "raised_amount":2000000,
+         "raised_currency_code":"USD",
+         "funded_year":2012,
+         "funded_month":5,
+         "funded_day":21,
+         "investments":[  
+            {  
+               "company":{  
+                  "name":"Juniper Networks",
+                  "permalink":"juniper-networks"
+               },
+               "financial_org":null,
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"QuestMark Partners",
+                  "permalink":"questmark"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Menlo Ventures",
+                  "permalink":"menlo-ventures"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Rho Capital Partners",
+                  "permalink":"rho-capital-ventures"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Star Ventures",
+                  "permalink":"star-ventures"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Four Rivers Group",
+                  "permalink":"four-rivers-group"
+               },
+               "person":null
+            }
+         ]
+      },
+      {  
+         "id":37221,
+         "round_code":"private_equity",
+         "source_url":"http://www.freshnews.com/news/787490/vidyo-raises-17-1-million-accelerate-sales-growth-and-maximize-market-share",
+         "source_description":"VIDYO RAISES $17.1 MILLION TO ACCELERATE SALES GROWTH AND MAXIMIZE MARKET SHARE",
+         "raised_amount":17100000,
+         "raised_currency_code":"USD",
+         "funded_year":2013,
+         "funded_month":4,
+         "funded_day":22,
+         "investments":[  
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Saints Capital",
+                  "permalink":"saints-capital"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Triangle Peak Partners",
+                  "permalink":"triangle-peak-partners"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Sevin Rosen Funds",
+                  "permalink":"sevin-rosen-funds"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"QuestMark Partners",
+                  "permalink":"questmark"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Menlo Ventures",
+                  "permalink":"menlo-ventures"
+               },
+               "person":null
+            },
+            {  
+               "company":null,
+               "financial_org":{  
+                  "name":"Rho Ventures",
+                  "permalink":"rho-ventures"
+               },
+               "person":null
+            }
+         ]
+      },
+      {  
+         "id":56646,
+         "round_code":"unattributed",
+         "source_url":"http://www.sec.gov/Archives/edgar/data/1441971/000144197111000002/xslFormDX01/primary_doc.xml",
+         "source_description":"SEC",
+         "raised_amount":11500000,
+         "raised_currency_code":"USD",
+         "funded_year":2011,
+         "funded_month":1,
+         "funded_day":19,
+         "investments":[  
+
+         ]
+      },
+      {  
+         "id":57921,
+         "round_code":"unattributed",
+         "source_url":"http://www.sec.gov/Archives/edgar/data/1441971/000144197110000001/xslFormDX01/primary_doc.xml",
+         "source_description":"SEC",
+         "raised_amount":26194961,
+         "raised_currency_code":"USD",
+         "funded_year":2010,
+         "funded_month":4,
+         "funded_day":7,
+         "investments":[  
+
+         ]
+      }
+   ],
+   "investments":[  
+
+   ],
+   "acquisition":null,
+   "acquisitions":[  
+
+   ],
+   "offices":[  
+      {  
+         "description":"HQ",
+         "address1":"433 Hackensack Ave",
+         "address2":"6th Floor",
+         "zip_code":"07601",
+         "city":"Hackensack",
+         "state_code":"NJ",
+         "country_code":"USA",
+         "coord":{  
+            "coordinates":[  
+               40.909378,
+               -74.033707
+            ],
+            "type":"Point"
+         }
+      }
+   ],
+   "milestones":[  
+      {  
+         "id":5908,
+         "description":"HP Partnered with Vidyo to offer Visual Collaboration ",
+         "stoned_year":2010,
+         "stoned_month":6,
+         "stoned_day":9,
+         "source_url":"http://www.businesswire.com/portal/site/home/permalink/?ndmViewId=news_view&newsId=20100609006888&newsLang=en",
+         "source_text":"",
+         "stoneable_type":"Company",
+         "stoned_value":null,
+         "stoned_value_type":null,
+         "stoned_acquirer":null,
+         "stoneable":{  
+            "name":"Vidyo",
+            "permalink":"vidyo"
+         }
+      },
+      {  
+         "id":8476,
+         "description":"Vidyo named to Lead411's New York City Hot 125 ",
+         "stoned_year":2010,
+         "stoned_month":8,
+         "stoned_day":31,
+         "source_url":"http://www.lead411.com/topnewyorkcompanies.html",
+         "source_text":null,
+         "stoneable_type":"Company",
+         "stoned_value":null,
+         "stoned_value_type":null,
+         "stoned_acquirer":null,
+         "stoneable":{  
+            "name":"Vidyo",
+            "permalink":"vidyo"
+         }
+      },
+      {  
+         "id":8789,
+         "description":"Vidyo Joins UCIF to Advance Unified Communications Interoperability ",
+         "stoned_year":2010,
+         "stoned_month":10,
+         "stoned_day":4,
+         "source_url":"http://www.freshnews.com/news/391637/vidyo-joins-ucif-advance-unified-communications-interoperability-",
+         "source_text":"",
+         "stoneable_type":"Company",
+         "stoned_value":null,
+         "stoned_value_type":null,
+         "stoned_acquirer":null,
+         "stoneable":{  
+            "name":"Vidyo",
+            "permalink":"vidyo"
+         }
+      },
+      {  
+         "id":39934,
+         "description":"Blue Violet Networks Partnered with Vidyo to offer its Multipoint Video Conferencing Solutions in Southern California",
+         "stoned_year":2013,
+         "stoned_month":8,
+         "stoned_day":26,
+         "source_url":"http://www.bluevioletnetworks.com/news/vidyo.html",
+         "source_text":null,
+         "stoneable_type":"Company",
+         "stoned_value":null,
+         "stoned_value_type":null,
+         "stoned_acquirer":null,
+         "stoneable":{  
+            "name":"Vidyo",
+            "permalink":"vidyo"
+         }
+      }
+   ],
+   "ipo":null,
+   "video_embeds":[  
+
+   ],
+   "external_links":[  
+      {  
+         "external_url":"http://www.bluevioletnetworks.com/news/vidyo.html",
+         "title":"Vidyo Solutions Provider in California"
+      }
+   ],
+   "partners":[  
+
+   ]
+}

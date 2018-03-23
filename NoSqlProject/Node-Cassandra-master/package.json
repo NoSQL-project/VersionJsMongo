@@ -1,0 +1,15 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "cassandra-driver": "^3.4.1",
+    "express": "^4.16.2",
+    "json-beautify": "^1.0.1",
+    "long": {
+      "integrity": "sha1-n6GAux2VAM3CnEFWdmoZleH0Uk8=",
+      "resolved": "https://registry.npmjs.org/long/-/long-2.4.0.tgz",
+      "version": "2.4.0"
+    },
+    "mongoose": "^5.0.11"
+  }
+}
