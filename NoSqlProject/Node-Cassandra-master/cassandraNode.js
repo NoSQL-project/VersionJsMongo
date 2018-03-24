@@ -81,7 +81,7 @@ var tab =new Array();
         //db.companies2.find({})
         if (err) throw err;
         //console.log(result);
-        res.json(JSON5.stringify(result));
+        res.json(result);
         db.close();
       });
 
