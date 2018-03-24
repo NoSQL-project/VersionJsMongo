@@ -1,6 +1,6 @@
 # VersionJsMongo
 
-#How to install the app :
+## How to install the app :
 
 You have to clone the repo first by using this command :
 ```
@@ -10,7 +10,7 @@ You can also download it.
 You have to launch your mongodb in background
 You must install npm and NodeJs on your computer too.
 
-#How to use the app
+## How to use the app
 
 go into the folder you have clone or download the repo
 ```
@@ -30,12 +30,12 @@ node cassandraNode.js
 
 go into your browser and go to localhost:8081 !
 
-#Home page :
+## Home page :
 
 Here is the home page of the app.
 
 ![Screenshot](PageAccueuil.png)
 
-#Result of an aggregate query :
+## Result of an aggregate query :
 
 ![Screenshot](ResearchAggregate.png)
