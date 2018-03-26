@@ -22,8 +22,15 @@
       </ul>
     </div>
   </nav>
+
   <div id="test1" class="col s12">
 
+
+<div style="margin-left:10px;width:80%;">
+    <h3 style="border-bottom:3px solid #ffa000;"> Personal Queries </h3>
+</div>
+
+<!--
     <p>Choose your request below</p>
     <form action="/query" methode='get'>
       <button name="query" value="1" type="submit" class="#ffa000 amber darken-2 waves-effect waves-light btn">Query 1</button>
@@ -31,7 +38,19 @@
       <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="3">Query 3</button>
       <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="4">Aggregate</button>
       <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="5">Query 5</button>
-    </form>
+
+
+      <input type="radio" class="with-gap" id="subscribeNews" name="subscribe" value="newsletter">
+    <label for="subscribeNews">Find</label>
+
+      <input type="radio" class="with-gap" id="subscribeNews" name="subscribe" value="newsletter">
+    <label for="subscribeNews">Aggregate</label>
+
+    <input type="radio" class="with-gap" id="subscribeNews" name="subscribe" value="newsletter">
+  <label for="subscribeNews">distinct</label>
+
+        </form>
+-->
 
     <div class="row">
       <form action="/query" class="col s12">
@@ -62,24 +81,67 @@
         </div>
 
         <div class="center">
-          <button name="/query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" onclick="donnee()">Submit</button>
+          <button name="/query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit">Submit</button>
         </div>
       </form>
+
+      <div style="margin-left:10px;width:80%;">
+          <h3 style="border-bottom:3px solid #ffa000;"> Pre-enregistred Queries </h3>
+      </div>
     </div>
+    <div class="container" style="width:50%;">
+      <ul class="collapsible popout">
+          <li>
+            <div onmouseover="this.style.color='orange';" onmouseout="this.style.color=''" class="collapsible-header"><i class="material-icons">wb_sunny</i>Easy Query</div>
+            <div class="collapsible-body">
+              <span>
+                <form action="/query" methode='get'>
+                <p> Give all the companies created in 2005 in alphabetical order. </p>
+                <button name="query" value="1" type="submit" class="#ffa000 amber darken-2 waves-effect waves-light btn">Query 1</button>
+                <p> Give the list of every distinct twitter username </p>
+                <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="2">Distinct</button>
+                <p> Give all the name of all compagnies. </p>
+                <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="3">Query 3</button>
+                </form>
+              </span>
+            </div>
+          </li>
+          <li>
+            <div onmouseover="this.style.color='orange';" onmouseout="this.style.color=''" class="collapsible-header"><i class="material-icons">cloud</i>Medium Query</div>
+            <div class="collapsible-body">
+              <span>
+                <form action="/query" methode='get'>
+                <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="4">Aggregate</button>
+                </form>
+              </span>
+            </div>
+          </li>
+          <li>
+            <div onmouseover="this.style.color='orange';" onmouseout="this.style.color=''" class="collapsible-header"><i class="material-icons">grain</i>Hard Query</div>
+            <div class="collapsible-body">
+              <span>
+                <form action="/query" methode='get'>
+              <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="5">Query 5</button>
+            </form>
+            </span>
+          </div>
+          </li>
+        </ul>
+      </div>
   </div>
 
 <div class="valign-wrapper center-align">
   <div id="test2" class="col s12">
-    <form class="center col s9" action="/admin" methode='get'>
+    <form class="center col s9" action="/admin" methode='get' name="connexion">
       <div class="row">
         <div class="input-field col s9">
           <i class="material-icons prefix">account_circle</i>
-          <input id="email" type="email" class="validate">
+          <input id="email" name="email" type="email" class="validate" required>
           <label for="email" data-error="wrong" data-success="right">Email</label>
         </div>
         <div class="input-field col s9">
           <i class="material-icons prefix">lock</i>
-          <input id="password" type="password" class="validate">
+          <input id="password" name="password" type="text" class="validate" required>
           <label for="password" data-error="wrong" data-success="right">password</label>
         </div>
         <div class="col s9" style="margin-left:12px;">
@@ -89,7 +151,7 @@
       </p>
     </div>
     </div>
-    <button name="admin" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" onclick="connect()">Connexion</button>
+    <button name="admin" class="#ffa000 amber darken-2 waves-effect waves-light btn">Connexion</button>
     </form>
   </div>
 </div>
