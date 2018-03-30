@@ -10,6 +10,9 @@ You can also download it.
 You have to launch your mongodb in background
 You must install npm and NodeJs on your computer too.
 
+you must have the __same name__ for the database : __Compagnies__
+and also the __same name for the collection__ in the database : __companies2__
+
 ## How to use the app
 
 go into the folder you have clone or download the repo
@@ -25,17 +28,21 @@ npm install .
 Next you just have to launch this command :
 
 ```
-node cassandraNode.js
+node mongoDBNode.js
 ```
 
 go into your browser and go to localhost:8081 !
 
 ## Home page :
 
-Here is the home page of the app.
+Here is some Screenshot of the get started in the app..
 
-![Screenshot](PageAccueuil.png)
+![Screenshot](Slider1.png)
+![Screenshot](Slider2.png)
+![Screenshot](Slider3.png)
+![Screenshot](Slider4.png)
 
-## Result of an aggregate query :
 
-![Screenshot](ResearchAggregate.png)
+## Result of a query :
+
+![Screenshot](Slider5.png)

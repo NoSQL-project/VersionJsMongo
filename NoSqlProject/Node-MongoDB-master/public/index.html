@@ -5,6 +5,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="materialize/css/stylesheetPerso.css" />
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
   <script type="text/javascript" src='index.js'> </script>
@@ -39,74 +40,68 @@
   $(document).ready(function(){
     $('#modal1').modal();
     $('#modal1').modal('open');
-      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    });
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  });
 
-    $(document).ready(function(){
-  $('.carousel').carousel(
-  {
-    dist: 0,
-    padding: 0,
-    fullWidth: true,
-    indicators: true,
-    duration: 100,
-  }
-  );
-});
+  $(document).ready(function(){
+    $('.carousel').carousel(
+      {
+        dist: 0,
+        padding: 0,
+        fullWidth: true,
+        indicators: true,
+        duration: 100,
+      }
+    );
+  });
 
-autoplay()
-function autoplay() {
+  autoplay()
+  function autoplay() {
     $('.carousel').carousel('next');
-    setTimeout(autoplay, 4500);
-}
+    setTimeout(autoplay, 4800);
+  }
 
   </script>
 
   <div class="row section">
-  <div class="col">
-    <!-- Modal Trigger -->
+    <div class="col">
+      <!-- Modal Trigger -->
 
-  </div>
-</div>
-<!-- Modal Structure -->
-<div id="modal1" class="modal" >
-<div class="modal-content" style="padding:0;">
-  <section class="black" style="height:80%;">
-  <div class="carousel carousel-slider" data-indicators="true" style="height:80%;">
-    <div class="carousel-fixed-item">
-      <div class="container">
-      </div>
-    </div>
-    <div class="carousel-item" href="#one!">
-      <img width="100%" height="78%" src="Slider1.jpg">
-    </div>
-    <div class="carousel-item amber darken-2 white-text" href="#two!">
-      <div class="container">
-        <h2>Second Slide</h2>
-        <p class="white-text">Etiam porta sem malesuada magna mollis euismod.</p>
-      </div>
-    </div>
-    <div class="carousel-item green white-text" href="#three!" >
-      <div class="container">
-        <h2>Third Slide</h2>
-        <p class="white-text">Etiam porta sem malesuada magna mollis euismod.</p>
-      </div>
-    </div>
-    <div class="carousel-item blue white-text" href="#four!">
-      <div class="container">
-        <h2>Fourth Slide</h2>
-        <p class="white-text">Etiam porta sem malesuada magna mollis euismod.</p>
-      </div>
     </div>
   </div>
-</section>
-</div>
-<div class="modal-footer">
-  <p>
-    <a href="#!" class=" modal-action modal-close #ffa000 amber darken-2 btn waves-effect waves-green btn" style="float:right;margin-top:60px;">Quit</a>
-  </p>
-</div>
-</div>
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal" >
+    <div class="modal-content" style="padding:0;">
+      <section class="black" style="height:80%;">
+        <div class="carousel carousel-slider" data-indicators="true" style="height:80%;">
+          <div class="carousel-fixed-item">
+            <div class="container">
+            </div>
+          </div>
+          <div class="carousel-item" href="#one!">
+            <img width="100%" height="78%" src="Slider1.png">
+          </div>
+          <div class="carousel-item amber darken-2 white-text" href="#two!">
+            <img width="100%" height="78%" src="Slider2.png">
+          </div>
+          <div class="carousel-item green white-text" href="#three!" >
+            <img width="100%" height="78%" src="Slider3.png">
+          </div>
+          <div class="carousel-item blue white-text" href="#four!">
+            <img width="100%" height="78%" src="Slider4.png">
+          </div>
+          <div class="carousel-item blue white-text" href="#four!">
+            <img width="100%" height="78%" src="Slider5.png">
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="modal-footer">
+      <p>
+        <a href="#!" class=" modal-action modal-close #ffa000 amber darken-2 btn waves-effect waves-green btn" style="float:right;margin-top:60px;">Quit</a>
+      </p>
+    </div>
+  </div>
   <div id="test1" class="col s12">
 
     <div style="margin-left:10px;width:80%;">
@@ -146,15 +141,14 @@ function autoplay() {
           <div class="center">
             <div class ="col s6 container" style="margin-left: 100px;margin-top: 50px;width:150px;height:auto;">
 
-        <ul id = "dropdown" class = "dropdown-content">
-           <li><button class="btn"style="width:117px;height: 65px;color:#ffa000;" value="find" name="bt1">Find </button></li>
-           <li><button class="btn"style="width:117px;height: 65px;color:#ffa000;font-size:0.8em;" name="bt2" value="aggregate">Aggregate</a></li>
-        </ul>
+              <ul id = "dropdown" class = "dropdown-content">
+                <li><button class="btn"style="width:117px;height: 65px;color:#ffa000;" value="find" name="bt1">Find </button></li>
+              </ul>
 
-        <a class = "#ffa000 amber darken-2 waves-effect waves-light btn dropdown-button" href = "#" data-activates = "dropdown">Submit
+              <a class = "#ffa000 amber darken-2 waves-effect waves-light btn dropdown-button" href = "#" data-activates = "dropdown">Submit
 
-         </a>
-     </div>
+              </a>
+            </div>
 
             <!--<button name="/queryPerso" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit">Submit</button> -->
           </div>
@@ -185,7 +179,7 @@ function autoplay() {
                 <button name="query" value="1" type="submit" class="#ffa000 amber darken-2 waves-effect waves-light btn">Query 1</button>
                 <p> Give the list of every distinct twitter username </p>
                 <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="2">Distinct</button>
-                <p> Give all the name of all compagnies. </p>
+                <p> Give some information about Vidyo compagny. </p>
                 <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="3">Query 3</button>
               </form>
             </span>
@@ -196,6 +190,7 @@ function autoplay() {
           <div class="collapsible-body">
             <span>
               <form action="/query" methode='get'>
+                <p> Give the number of employees of every web company sorted in decreasing order </p>
                 <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="4">Aggregate</button>
               </form>
             </span>
@@ -206,6 +201,7 @@ function autoplay() {
           <div class="collapsible-body">
             <span>
               <form action="/query" methode='get'>
+                <p> For each publisher company (if exists), give the average amount of money raised. Sort the result decreasingly. </p>
                 <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="5">Query 5</button>
               </form>
             </span>
