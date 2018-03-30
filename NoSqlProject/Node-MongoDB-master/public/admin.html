@@ -1,0 +1,168 @@
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src='index.js'> </script>
+  <script>
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+  </script>
+
+</head>
+<body>
+
+  <nav class="nav-extended #ffa000 amber darken-2">
+    <div class="nav-wrapper">
+
+      <a href="index.html" class="brand-logo">NoSqlProject</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a class="active" href="#test1">User</a></li>
+        <li class="tab"><a href="#test2">Admin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="test1" class="col s12">
+
+    <div style="margin-left:10px;width:80%;">
+      <h3 style="border-bottom:3px solid #ffa000;"> Personal Queries </h3>
+    </div>
+
+    <div class="row">
+      <form action="/queryPerso" class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id='Cname' onchange='if(this.value.length >0){document.getElementById("twitter1").disabled = true} else{document.getElementById("twitter1").disabled = false}' name="name" type="text" class="validate">
+            <label for="Cname">Companie Name </label>
+          </div>
+
+          <div class="col s6" style="padding-left:0;">
+            <div class="col s6" style="padding-left:0;width:auto;margin-top: 15px;">
+              <svg id="twitter_username" viewBox="0 0 64 64" width="43.5" height="28.8" style="padding-left:10px;">
+                <path id="logo" troke-width="0" fill="currentColor" d="M60 16 L54 17 L58 12 L51 14 C42 4 28 15 32 24 C16 24 8 12 8 12 C8 12 2 21 12 28 L6 26 C6 32 10 36 17 38 L10 38 C14 46 21 46 21 46 C21 46 15 51 4 51 C37 67 57 37 54 21 Z" />
+              </svg>
+            </div>
+            <div class="input-field col s10" style="padding-left:0;">
+              <input onchange='if(this.value.length >0){document.getElementById("Cname").disabled = true} else{document.getElementById("Cname").disabled = false}' id="twitter1" onblur='document.getElementById("logo").style.color = "black"' onclick='document.getElementById("logo").style.color = "#4db6ac"' name="twitter1" type="text" class="validate">
+              <label for="twitter_username">Twitter Username</label>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="row">
+          <div class="input-field col s8">
+            <i class="material-icons prefix">date_range</i>
+            <input type="text" class="datepicker" name="year">
+            <label for="founded_year">Founded year</label>
+          </div>
+          <div class="center">
+            <div class ="col s6 container" style="margin-left: 100px;margin-top: 50px;width:150px;height:auto;">
+
+              <ul id = "dropdown" class = "dropdown-content">
+                <li><button class="btn"style="width:117px;height: 65px;color:#ffa000;" value="find" name="bt1">Find </button></li>
+                <li><button class="btn"style="width:117px;height: 65px;color:#ffa000;font-size:0.8em;" name="bt2" value="aggregate">Aggregate</a></li>
+                </ul>
+
+                <a class = "#ffa000 amber darken-2 waves-effect waves-light btn dropdown-button" href = "#" data-activates = "dropdown">Submit
+
+                </a>
+              </div>
+
+              <!--<button name="/queryPerso" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit">Submit</button> -->
+            </div>
+          </div>
+
+          <div class="input-field col s8">
+            <i class="material-icons prefix">people</i>
+            <!--<input name="max" id="Money" type="text" class="validate">-->
+            <p class="range-field">
+              <input name="test" style="width: 100%;" type="range" id="test5" min="0" max="500000" oninput="t.value=parseInt(test.value)"/>
+            </p>
+            <label for="test5">Number of employees : <output name="t">undefined</output></label>
+          </div>
+        </form>
+
+        <div style="margin-left:10px;width:80%;">
+          <h3 style="border-bottom:3px solid #ffa000;"> Pre-enregistred Queries </h3>
+        </div>
+      </div>
+      <div class="container" style="width:50%;">
+        <ul class="collapsible popout">
+          <li>
+            <div onmouseover="this.style.color='orange';" onmouseout="this.style.color=''" class="collapsible-header"><i class="material-icons">wb_sunny</i>Easy Query</div>
+            <div class="collapsible-body">
+              <span>
+                <form action="/query" methode='get'>
+                  <p> Give all the companies created in 2005 in alphabetical order. </p>
+                  <button name="query" value="1" type="submit" class="#ffa000 amber darken-2 waves-effect waves-light btn">Query 1</button>
+                  <p> Give the list of every distinct twitter username </p>
+                  <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="2">Distinct</button>
+                  <p> Give all the name of all compagnies. </p>
+                  <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="3">Query 3</button>
+                </form>
+              </span>
+            </div>
+          </li>
+          <li>
+            <div onmouseover="this.style.color='orange';" onmouseout="this.style.color=''" class="collapsible-header"><i class="material-icons">cloud</i>Medium Query</div>
+            <div class="collapsible-body">
+              <span>
+                <form action="/query" methode='get'>
+                  <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="4">Aggregate</button>
+                </form>
+              </span>
+            </div>
+          </li>
+          <li>
+            <div onmouseover="this.style.color='orange';" onmouseout="this.style.color=''" class="collapsible-header"><i class="material-icons">flash_on</i>Hard Query</div>
+            <div class="collapsible-body">
+              <span>
+                <form action="/query" methode='get'>
+                  <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="5">Query 5</button>
+                </form>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </div>
+      <div id="test2" class="col s12">
+
+
+    <div style="position:absolute;margin-top: 150px;margin-left: 100px;width:100px;height100%;">
+      <input name="grp1" type="radio" id="r1" onclick="document.getElementById('requete').value='db.companies2.find({name:Facebook})'">
+      <label for="r1">Find</label>
+
+      <input name="grp1" type="radio" id="r2" onclick="document.getElementById('requete').value='db.companies2.distinct(name)'">
+      <label for="r2">Distinct</label>
+
+      <input name="grp1" type="radio" id="r3" onclick="document.getElementById('requete').value='db.companies2.aggregate([{$match :{founded_year:2005}},{$project :{name:1}}])'">
+      <label for="r3">Aggregate</label>
+    </div>
+    <div style:"position: relative;" class="center-align">
+      <p> Enter a query here : </p>
+
+      <textarea id="requete" rows="5" cols="50" style="margin-top: 50px;margin-bottom:50px;width:50%;height:20%">
+      </textarea>
+      <br />
+
+      <button class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit">Go</button>
+</div>
+
+    </div>
+
+
+
+  </body>
+  </html>

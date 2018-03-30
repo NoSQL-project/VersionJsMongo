@@ -1,0 +1,245 @@
+<html>
+<head>
+  <!--Import Google Icon Font-->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src='index.js'> </script>
+  <script>
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+  </script>
+
+</head>
+<body>
+
+  <nav class="nav-extended #ffa000 amber darken-2">
+    <div class="nav-wrapper">
+
+      <a href="index.html" class="brand-logo">NoSqlProject</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+    <div class="nav-content">
+
+      <ul class="tabs tabs-transparent">
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1" style="float:right;">Get Started</a>
+        <li class="tab"><a class="active" href="#test1">User</a></li>
+        <li class="tab"><a href="#test2">Admin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <script>
+
+
+  $(document).ready(function(){
+    $('#modal1').modal();
+    $('#modal1').modal('open');
+      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    });
+
+    $(document).ready(function(){
+  $('.carousel').carousel(
+  {
+    dist: 0,
+    padding: 0,
+    fullWidth: true,
+    indicators: true,
+    duration: 100,
+  }
+  );
+});
+
+autoplay()
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
+
+  </script>
+
+  <div class="row section">
+  <div class="col">
+    <!-- Modal Trigger -->
+
+  </div>
+</div>
+<!-- Modal Structure -->
+<div id="modal1" class="modal" >
+<div class="modal-content" style="padding:0;">
+  <section class="black" style="height:80%;">
+  <div class="carousel carousel-slider" data-indicators="true" style="height:80%;">
+    <div class="carousel-fixed-item">
+      <div class="container">
+      </div>
+    </div>
+    <div class="carousel-item" href="#one!">
+      <img width="100%" height="78%" src="Slider1.jpg">
+    </div>
+    <div class="carousel-item amber darken-2 white-text" href="#two!">
+      <div class="container">
+        <h2>Second Slide</h2>
+        <p class="white-text">Etiam porta sem malesuada magna mollis euismod.</p>
+      </div>
+    </div>
+    <div class="carousel-item green white-text" href="#three!" >
+      <div class="container">
+        <h2>Third Slide</h2>
+        <p class="white-text">Etiam porta sem malesuada magna mollis euismod.</p>
+      </div>
+    </div>
+    <div class="carousel-item blue white-text" href="#four!">
+      <div class="container">
+        <h2>Fourth Slide</h2>
+        <p class="white-text">Etiam porta sem malesuada magna mollis euismod.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<div class="modal-footer">
+  <p>
+    <a href="#!" class=" modal-action modal-close #ffa000 amber darken-2 btn waves-effect waves-green btn" style="float:right;margin-top:60px;">Quit</a>
+  </p>
+</div>
+</div>
+  <div id="test1" class="col s12">
+
+    <div style="margin-left:10px;width:80%;">
+      <h3 style="border-bottom:3px solid #ffa000;"> Personal Queries </h3>
+    </div>
+
+    <div class="row">
+      <form action="/queryPerso" class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id='Cname' onchange='if(this.value.length >0){document.getElementById("twitter1").disabled = true} else{document.getElementById("twitter1").disabled = false}' name="name" type="text" class="validate">
+            <label for="Cname">Companie Name </label>
+          </div>
+
+          <div class="col s6" style="padding-left:0;">
+            <div class="col s6" style="padding-left:0;width:auto;margin-top: 15px;">
+              <svg id="twitter_username" viewBox="0 0 64 64" width="43.5" height="28.8" style="padding-left:10px;">
+                <path id="logo" troke-width="0" fill="currentColor" d="M60 16 L54 17 L58 12 L51 14 C42 4 28 15 32 24 C16 24 8 12 8 12 C8 12 2 21 12 28 L6 26 C6 32 10 36 17 38 L10 38 C14 46 21 46 21 46 C21 46 15 51 4 51 C37 67 57 37 54 21 Z" />
+              </svg>
+            </div>
+            <div class="input-field col s10" style="padding-left:0;">
+              <input onchange='if(this.value.length >0){document.getElementById("Cname").disabled = true} else{document.getElementById("Cname").disabled = false}' id="twitter1" onblur='document.getElementById("logo").style.color = "black"' onclick='document.getElementById("logo").style.color = "#4db6ac"' name="twitter1" type="text" class="validate">
+              <label for="twitter_username">Twitter Username</label>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="row">
+          <div class="input-field col s8">
+            <i class="material-icons prefix">date_range</i>
+            <input type="text" class="datepicker" name="year">
+            <label for="founded_year">Founded year</label>
+          </div>
+          <div class="center">
+            <div class ="col s6 container" style="margin-left: 100px;margin-top: 50px;width:150px;height:auto;">
+
+        <ul id = "dropdown" class = "dropdown-content">
+           <li><button class="btn"style="width:117px;height: 65px;color:#ffa000;" value="find" name="bt1">Find </button></li>
+           <li><button class="btn"style="width:117px;height: 65px;color:#ffa000;font-size:0.8em;" name="bt2" value="aggregate">Aggregate</a></li>
+        </ul>
+
+        <a class = "#ffa000 amber darken-2 waves-effect waves-light btn dropdown-button" href = "#" data-activates = "dropdown">Submit
+
+         </a>
+     </div>
+
+            <!--<button name="/queryPerso" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit">Submit</button> -->
+          </div>
+        </div>
+
+        <div class="input-field col s8">
+          <i class="material-icons prefix">people</i>
+          <!--<input name="max" id="Money" type="text" class="validate">-->
+          <p class="range-field">
+            <input name="test" style="width: 100%;" type="range" id="test5" min="0" max="500000" oninput="t.value=parseInt(test.value)"/>
+          </p>
+          <label for="test5">Number of employees : <output name="t">undefined</output></label>
+        </div>
+      </form>
+
+      <div style="margin-left:10px;width:80%;">
+        <h3 style="border-bottom:3px solid #ffa000;"> Pre-enregistred Queries </h3>
+      </div>
+    </div>
+    <div class="container" style="width:50%;">
+      <ul class="collapsible popout">
+        <li>
+          <div onmouseover="this.style.color='orange';" onmouseout="this.style.color=''" class="collapsible-header"><i class="material-icons">wb_sunny</i>Easy Query</div>
+          <div class="collapsible-body">
+            <span>
+              <form action="/query" methode='get'>
+                <p> Give all the companies created in 2005 in alphabetical order. </p>
+                <button name="query" value="1" type="submit" class="#ffa000 amber darken-2 waves-effect waves-light btn">Query 1</button>
+                <p> Give the list of every distinct twitter username </p>
+                <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="2">Distinct</button>
+                <p> Give all the name of all compagnies. </p>
+                <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="3">Query 3</button>
+              </form>
+            </span>
+          </div>
+        </li>
+        <li>
+          <div onmouseover="this.style.color='orange';" onmouseout="this.style.color=''" class="collapsible-header"><i class="material-icons">cloud</i>Medium Query</div>
+          <div class="collapsible-body">
+            <span>
+              <form action="/query" methode='get'>
+                <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="4">Aggregate</button>
+              </form>
+            </span>
+          </div>
+        </li>
+        <li>
+          <div onmouseover="this.style.color='orange';" onmouseout="this.style.color=''" class="collapsible-header"><i class="material-icons">flash_on</i>Hard Query</div>
+          <div class="collapsible-body">
+            <span>
+              <form action="/query" methode='get'>
+                <button name="query" class="#ffa000 amber darken-2 waves-effect waves-light btn" type="submit" value="5">Query 5</button>
+              </form>
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="valign-wrapper center-align">
+    <div id="test2" class="col s12">
+      <form class="center col s9" action="/admin" methode='get' name="connexion">
+        <div class="row">
+          <div class="input-field col s9">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="email" name="email" type="email" class="validate" required>
+            <label for="email" data-error="wrong" data-success="right">Email</label>
+          </div>
+          <div class="input-field col s9">
+            <i class="material-icons prefix">lock</i>
+            <input id="password" name="password" type="text" class="validate" required>
+            <label for="password" data-error="wrong" data-success="right">password</label>
+          </div>
+          <div class="col s9" style="margin-left:12px;">
+            <p>
+              <input type="checkbox" id="test5" />
+              <label for="test5">Remenber me</label>
+            </p>
+          </div>
+        </div>
+        <button name="admin" class="#ffa000 amber darken-2 waves-effect waves-light btn">Connexion</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
